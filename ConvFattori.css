@@ -1,0 +1,44 @@
+body {
+    font-family:'Segoe UI', Tahoma, Geneva, Verdana, sans-serif
+}
+h3 {
+    border: solid 3px rgba(18, 136, 126, 0.678);
+    padding-left: 7px;
+    padding-right: 7px;
+    display: block;
+    width: fit-content;
+    border-radius: 30px;
+    color: rgb(18, 136, 126);
+}
+#changeTheme {
+    background-color: transparent;
+    border: none;
+}
+#changeTheme:hover {
+    cursor: pointer;
+}
+#day {
+    display: none;
+    width: 75px;
+    margin: 0 0 0 25px;
+}
+#nightmode {
+    width: 75px;
+    margin: 0 0 0 25px;
+    display: block;
+}
+#nightmode:hover {
+    filter: opacity(50%);
+}
+#p {
+    color: rgb(71, 71, 71);
+    background-color: rgba(18, 136, 126, 0.192);
+    width: fit-content;
+}
+#number {
+    border: solid 2px rgba(18, 136, 126, 0.678);
+}
+#scomponi {
+    border: solid 2px rgba(18, 136, 126, 0.678);
+    background-color: rgba(18, 136, 126, 0.192);
+}
